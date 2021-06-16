@@ -1,0 +1,20 @@
+{
+  "name": "home-assignment-recipe-be",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small toy backend built for adding & removing recipes. Intended for use in home assignments.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --exitcrash"
+  },
+  "author": "minut-web-team",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-json-validator-middleware": "^2.1.1",
+    "node-json-db": "^1.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
+}

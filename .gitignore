@@ -1,0 +1,13 @@
+# Database
+recipe-db.json
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Logs
+logs
+*.log
