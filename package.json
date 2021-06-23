@@ -9,6 +9,7 @@
   },
   "author": "minut-web-team",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-json-validator-middleware": "^2.1.1",
     "node-json-db": "^1.3.0",

@@ -1,4 +1,5 @@
 const express = require("express");
+var cors = require("cors");
 
 const { ValidationError } = require("express-json-validator-middleware");
 const endpointsRouter = require("./endpoints");
@@ -33,6 +34,8 @@ function logErrorsHandler(err, req, res, next) {
 }
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json({ type: "application/json" }));
 
