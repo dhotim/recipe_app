@@ -147,7 +147,7 @@ router.delete("/recipes/:id", (req, res) => {
 /** GET Reset
  * @openapi
  * /reset:
- *  patch:
+ *  get:
  *    summary: Reset the database to its original state
  *    responses:
  *      204:

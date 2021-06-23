@@ -65,7 +65,7 @@ interface Recipe {
 }
 ```
 
-When creating new recipes by sending PATCH requests, the request body will be
+When creating new recipes by sending POST or PUT requests, the request body will be
 validated according to this model.
 
 Sample recipes and and the schema validator can be found in `recipes.js`.
