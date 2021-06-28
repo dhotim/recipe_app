@@ -4,8 +4,8 @@ var cors = require("cors");
 const { ValidationError } = require("express-json-validator-middleware");
 const endpointsRouter = require("./endpoints");
 
-// Default port is 3001, but change it here if it's already in use
-const PORT = 3001;
+// Default port is 3000, but change it here if it's already in use
+const PORT = 3000;
 
 function validationErrorMiddleware(error, request, response, next) {
   if (response.headersSent) {
